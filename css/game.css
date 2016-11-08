@@ -1,0 +1,61 @@
+.background    { background-image: url(http://themes.sqrt121.com/mercurial/wp-content/uploads/2012/10/City-Wallpapers-1024x576.png);
+				background-size: contain;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url(https://img0.etsystatic.com/069/0/5132637/il_570xN.815967776_tfb1.jpg);
+				 background-size: contain;
+ }
+.wall          { background-image: url(http://i.imgur.com/IZm86.png);
+				 background-size: contain;
+}
+
+.actor  { position: absolute;  }
+.coin   { background: radial-gradient(#FFB42C, #FFA400 , #B12165 ); }
+.player { background-image: url(http://static.tumblr.com/81c90c4b836dacd10653de4970dc0c8d/plv6dfg/fVPneosce/tumblr_static_atveybha2bs4w8gc44gg880gc.gif);
+		  background-size: contain;
+ }
+.enemy  { background-image: url(http://forums.androidcentral.com/attachments/android-games/241584d1475764994t-game-free-4-1-monster-run-retro-pixel-art-arcade-platformer-scarecrow.png);
+		  background-size: contain;
+ }
+.lift   { background: repeating-radial-gradient(#49B2D5, #059DCF , #B12165 ); }
+.nwarp  { background: repeating-radial-gradient(#521971, #2C0242, #B12165);}
+.slow {background: repeating-radial-gradient(#7007A1, #F2A800 10%, #B12165 5%);}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url(http://rs795.pbsrc.com/albums/yy232/PixKaruumi/Pixels%202/so3l0i_th.gif~c200);
+		  background-size: contain;
+}
+.lost .background{
+	background-image: url(http://2static3.fjcdn.com/comments/Zone+s+done+it+to+troll+bronies+and+tiarawhy+went+ahead+_7a850228feea1ad618bba8934da04f6c.png)
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+.won .background{
+	background-image: url(http://vignette1.wikia.nocookie.net/fantendo/images/f/fc/Trophysprite.png/revision/latest?cb=20150302040323)
+	}
+.praw .background {
+	background-image: url(http://orig10.deviantart.net/25e1/f/2012/228/9/2/pixel_skull_and_crossbones_by_aftermuchcrumpling-d5bcalw.jpg)
+	}
+.praw .player {
+	background-image: url(http://static.tumblr.com/81c90c4b836dacd10653de4970dc0c8d/plv6dfg/fVPneosce/tumblr_static_atveybha2bs4w8gc44gg880gc.gif);
+		  background-size: contain;
+	box-shadow: -4px -7px 8px #749E1D, 4px -7px 8px #749E1D;
+}
+.warp .background {
+	background-image: url(https://media2.giphy.com/media/4mPQvKWy0Y8es/200_s.gif)
+	
+	}
+.warp .player {
+	background-image: url(http://static.tumblr.com/81c90c4b836dacd10653de4970dc0c8d/plv6dfg/fVPneosce/tumblr_static_atveybha2bs4w8gc44gg880gc.gif);
+		  background-size: contain;
+	box-shadow: -4px -7px 8px #F867B9, 4px -7px 8px #F867B9;
+}
+}
